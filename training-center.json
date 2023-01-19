@@ -1330,6 +1330,28 @@
                  "width":126.543773194622,
                  "x":689.51,
                  "y":192.857577416804
+                }, 
+                {
+                 "height":118.54583772392,
+                 "id":70,
+                 "name":"jitsi",
+                 "properties":[
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"testjitsi"
+                        }, 
+                        {
+                         "name":"jitsiRoomAdminTag",
+                         "type":"string",
+                         "value":"speaker"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":231.822971548999,
+                 "x":1422.55005268704,
+                 "y":1662.2760800843
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -2018,7 +2040,7 @@
          "y":0
         }],
  "nextlayerid":45,
- "nextobjectid":70,
+ "nextobjectid":72,
  "orientation":"orthogonal",
  "properties":[
         {
