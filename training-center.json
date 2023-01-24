@@ -1352,6 +1352,28 @@
                  "width":302.069969056364,
                  "x":1390.82560219984,
                  "y":1621.48750088648
+                }, 
+                {
+                 "height":179.016542034897,
+                 "id":72,
+                 "name":"jitsiroom",
+                 "properties":[
+                        {
+                         "name":"jistiRoomAdminTag",
+                         "type":"string",
+                         "value":"speaker"
+                        }, 
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"test_jitsi"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":299.116247450714,
+                 "x":584.636301835486,
+                 "y":1636.0752322683
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1949,7 +1971,7 @@
          "name":"roof",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":75,
          "x":0,
          "y":0
@@ -2040,7 +2062,7 @@
          "y":0
         }],
  "nextlayerid":45,
- "nextobjectid":72,
+ "nextobjectid":73,
  "orientation":"orthogonal",
  "properties":[
         {
