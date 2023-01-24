@@ -45,6 +45,17 @@ WA.onInit().then(() => {
 
 }).catch(e => console.error(e));
 
+WA.room.onEnterLayer("floor").subscribe(() => {
+    WA.room.hideLayer("roof");
+    WA.room.hideLayer("walls-bg-front");
+    WA.room.hideLayer("signs");
+  });
+  
+WA.room.onLeaveLayer("floor").subscribe(() => {
+    WA.room.showLayer("roof");
+    WA.room.showLayer("walls-bg-front");
+    WA.room.showLayer("signs");
+  });
 function closePopUp(){
     if (currentPopup !== undefined) {
         currentPopup.close();
